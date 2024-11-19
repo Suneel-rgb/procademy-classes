@@ -49,7 +49,7 @@ function ProductList() {
     return (
         <div className='container'>
             <div className='row'>
-                <div className='col-lg-8 mx-auto'>
+                <div className='col-lg-8 col-md-12 mx-auto'>
                     <ul className='list-group shadow list-unstyled'>
                         <Products
                             id={products[0].pID}

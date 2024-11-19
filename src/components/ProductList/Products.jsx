@@ -5,8 +5,8 @@ import ProductDetails from './ProductDetails';
 const Products = (props) => {
     return (
         <li className='list-group-item'>
-            <div className='media align-items-lg-center flex-column flex-lg-row p-3 d-flex'>
-                <div className='media-body order-2 order-lg-1'>
+            <div className='media align-items-lg-center flex-column flex-lg-row flex-md-row p-3 d-flex'>
+                <div className='media-body order-2 order-lg-1 order-md-1'>
                     <h5 className='mt-0 fw-bold mb-2'>{props.name}</h5>
                     <p className='fst-italic text-muted mb-3 small'>
                         {props.description}
